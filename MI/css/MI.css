@@ -1,0 +1,1036 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*头部*/
+.headerBox {
+    width: 100%;
+    height: 40px;
+    background: #333;
+}
+
+.headerContent {
+    width: 1226px;
+    /*height: 40px;*/
+    /*background: red;*/
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+.headerTitle {
+    height: 40px;
+    font-size: 12px;
+    float: left;
+}
+.headerTitle>a:hover {
+    color: white;
+}
+
+.headerTitle>span:hover {
+    color: white;
+}
+
+
+.headerTitle span {
+    margin: 0 4px;
+    color: #424242;
+}
+
+.headerTitle a {
+    color: #b0b0b0;
+}
+
+.headerCart {
+    float: right;
+    width: 120px;
+    height: 40px;
+    background: #424242;
+    text-align: center;
+    line-height: 40px;
+    color: #b0b0b0;
+    margin-left: 20px;
+}
+
+.headerCart:hover {
+    background: white;
+    color: #ff6700;
+}
+
+.headerBotton {
+    height: 40px;
+    font-size: 12px;
+    float: right;
+
+}
+
+.headerBotton a {
+    color: #b0b0b0;
+}
+
+.headerBotton span {
+    margin: 0 10px;
+    color: #424242;
+}
+
+.headerBotton>a:hover {
+    color: white;
+}
+
+.headerBotton>span:hover {
+    color: white;
+}
+/*头部*/
+
+
+/*标题*/
+.titleBox {
+    width: 100%;
+}
+
+.titleContent {
+    width: 1226px;
+    height: 60px;
+    /*background: red;*/
+    margin: 0 auto;
+}
+
+.titleMi {
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    float: left;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 40px;
+}
+
+.titleMi a {
+    color: #333;
+}
+
+.titleName {
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 120px;
+}
+
+.titleName a {
+    margin: 0 10px;
+    color: #333;
+}
+
+.titleName a:hover {
+    color: #ff6700;
+}
+.titleSearch:hover .titleInput,.icon-search {
+    border: 1px solid #000000;
+}
+.titleInput {
+    width: 240px;
+    height: 38px;
+    border: 1px solid #b0b0b0;
+    float: right;
+    margin: 10px -1px 10px 0;
+    font-size: 10px;
+    line-height: 38px;
+}
+
+.titleInputBox {
+    border: none;
+    background: none;
+    outline: none;
+}
+.icon-search {
+    width: 38px;
+    height: 38px;
+    background: white;
+    border: 1px solid #b0b0b0;
+    margin: 10px 0;
+    float: right;
+    text-align: center;
+    line-height: 38px;
+}
+
+.icon-search:hover {
+    background: #ff6700;
+    color: white;
+    border: 1px solid #333;
+}
+
+.font1 {
+    width: 100px;
+    height: 18px;
+    background: #eeeeee;
+    float: left;
+    margin: 11px 0 11px 10px;
+
+}
+
+.font1 div {
+    text-align: center;
+    line-height: 18px;
+}
+
+.font2 div {
+    text-align: center;
+    line-height: 18px;
+}
+
+.font2 {
+    width: 100px;
+    height: 18px;
+    background: #eeeeee;
+    float: right;
+    margin: 11px 10px 11px 0;
+}
+
+/*标题*/
+
+/*导航图*/
+.bannerBox {
+    width: 100%;
+    height: 460px;
+}
+
+.bannerContent {
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bannerImgPhoto, img {
+    width: 1226px;
+    height: 460px;
+    position: absolute;
+}
+
+.bannerlist {
+    width: 174px;
+    height: 420px;
+    background: #b0b0b0;
+    padding: 20px 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.bannerlist li {
+    width: 174px;
+    height: 42px;
+    line-height: 42px;
+    color: white;
+}
+
+.bannerlist li:hover {
+    background: #ff6700;
+}
+.bannerlist li div {
+    float: left;
+}
+
+.bannerlist li i {
+    float: right;
+}
+
+.bannerArrowLeft {
+    width: 42px;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    left: 234px;
+    top: 195px;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+.bannerArrowLeft:hover {
+    background: rgba(0,0,0,0.2);
+}
+.bannerArrowLeft i {
+    font-size: 24px;
+}
+
+.bannerArrowRight i {
+    font-size: 24px;
+}
+
+.bannerArrowRight {
+    width: 42px;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 195px;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+.bannerArrowRight:hover {
+    background: rgba(0,0,0,0.2);
+}
+.bannerPage {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    right: 30px;
+    bottom: 30px;
+}
+
+.bannerPage li {
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border: 2px solid #b0b0b0;
+    border-radius: 50%;
+    float: left;
+    margin: 6px;
+}
+
+.bannerPage li:hover {
+    background: #ff6700;
+}
+/*导航图*/
+
+/**/
+.shoppingBox {
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+}
+
+.shoppingContent {
+    width: 1226px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.shoppingContent img {
+    width: 316px;
+    height: 170px;
+}
+
+.shoppingContent .shoppingContentLeft {
+    width: 234px;
+    height: 170px;
+    background: #5f5750;
+    float: left;
+    color: rgba(255,255,255,0.5);
+    overflow: hidden;
+    position: relative;
+}
+
+.shoppingContent .shoppingContentLeft>li:hover {
+    color: white;
+}
+.shoppingContent .shoppingContentLeft>li {
+    width: 76px;
+/*    height: 82px;*/
+    float: left;
+    margin-top: 18px;
+}
+
+
+.shoppingContent .shoppingContentLeft>li i {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+}
+
+.shoppingContent .shoppingContentLeft>li div {
+    font-size: 12px;
+    text-align: center;
+}
+
+.lineRow {
+    position: absolute;
+    top: 85px;
+    overflow: hidden;
+}
+.lineRow>li {
+    width: 56px;
+    height: 1px;
+    background: rgba(255,255,255,0.3);
+    float: left;
+    margin-left: 15px;
+}
+
+.lineListLeft {
+    position: absolute;
+    left: 77px;
+    top: 10px;
+}
+
+.lineListLeft li {
+    width: 1px;
+    height: 56px;
+    background: rgba(255,255,255,0.3);
+    margin-top: 15px;
+}
+.lineListRight {
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+
+.lineListRight li {
+    width: 1px;
+    height: 56px;
+    background: rgba(255,255,255,0.3);
+    margin-top: 15px;
+}
+
+.iconMargin {
+    margin-top: 30px;
+}
+
+.shoppingContent .shoppingContentSecond {
+    width: 316px;
+    height: 170px;
+    background: darkorange;
+    float: left;
+    margin: 0 14px;
+}
+
+.shoppingContent .shoppingContentThird {
+    width: 316px;
+    height: 170px;
+    background: darkorange;
+    float: right;
+}
+
+.shoppingContent .shoppingContentRight {
+    width: 316px;
+    height: 170px;
+    background: darkorange;
+    float: right;
+    margin: 0 14px 0 0;
+}
+
+/**/
+
+/*闪购*/
+
+.flashBox {
+    width: 100%;
+    height: 550px;
+    background: #f5f5f5;
+    margin-top: 20px;
+}
+
+.flashContent {
+    width: 1226px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.flashTitle {
+    width: 1226px;
+    height: 60px;
+}
+
+.flashTitle div {
+    font-size: 22px;
+    color: #333;
+    line-height: 60px;
+    float: left;
+}
+
+.flashTitleArrow1 {
+    width: 34px;
+    height: 22px;
+    border: 1px solid rgba(0,0,0,0.3);
+    color: rgba(0,0,0,0.3);
+    float: right;
+    margin: 18px -1px 18px 0;
+    text-align: center;
+    line-height: 22px;
+}
+
+.flashTitleArrow1:hover {
+    color: #ff6700;
+}
+
+.flashTitleArrow2 {
+    width: 34px;
+    height: 22px;
+    border: 1px solid rgba(0,0,0,0.3);
+    color: rgba(0,0,0,0.3);
+    float: right;
+    margin: 18px -1px 18px 0;
+    text-align: center;
+    line-height: 24px;
+}
+
+.flashTitleArrow2:hover {
+    color: #ff6700;
+}
+
+.flashBody {
+    width: 1226px;
+    height: 340px;
+}
+
+.flashBody .flashTimeBox {
+    width: 234px;
+    height: 299px;
+    border-top: 1px solid #e53935;
+    background: #f1eded;
+    padding-top: 39px;
+
+}
+
+.flashTimeBox {
+    float: left;
+    overflow: hidden;
+}
+
+.flashTime {
+    font-size: 21px;
+    color: #ef3a3b;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.flashTimeImg {
+    width: 234px;
+    height: 103px;
+}
+
+.flashTimeImg img {
+    width: 34px;
+    height: 53px;
+    margin: 25px 100px;
+}
+
+.flashTimeText {
+    font-size: 15px;
+    text-align: center;
+}
+
+.flashTimeEnd {
+    width: 234px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    margin-top: 34px;
+}
+
+.flashTimeEndBack {
+    width: 46px;
+    height: 46px;
+    background: #605751;
+    color: white;
+    float: left;
+}
+
+.flashTimeEndBotton {
+    width: 15px;
+    height: 46px;
+    color: #605751;
+    float: left;
+}
+
+.flashTimeEndBack.Back {
+    margin-left: 33px;
+}
+
+.flashList {
+    width: 992px;
+    height: 340px;
+    float: right;
+    overflow: hidden;
+}
+
+.flashListAfter1 {
+    width: 234px;
+    height: 299px;
+    border-top: 1px solid darkorange;
+    background: white;
+    padding-top: 39px;
+    margin-left: 14px;
+    float: left;
+}
+
+.flashListAfter2 {
+    width: 234px;
+    height: 299px;
+    border-top: 1px solid greenyellow;
+    background: white;
+    padding-top: 39px;
+    margin-left: 14px;
+    float: left;
+}
+
+.flashListAfter3 {
+    width: 234px;
+    height: 299px;
+    border-top: 1px solid blue;
+    background: white;
+    padding-top: 39px;
+    margin-left: 14px;
+    float: left;
+}
+
+.flashListAfter4 {
+    width: 234px;
+    height: 299px;
+    border-top: 1px solid yellow;
+    background: white;
+    padding-top: 39px;
+    margin-left: 14px;
+    float: left;
+}
+
+.flashList div {
+    width: 234px;
+    height: 170px;
+}
+
+.flashList img {
+    width: 170px;
+    height: 170px;
+    padding: 0 32px;
+    display: block;
+}
+
+.flashList ul {
+    text-align: center;
+    font-size: 14px;
+}
+
+.flashList .flashAd1 {
+    margin-bottom: 3px;
+    color: #212121;
+}
+
+.flashList .flashAd2 {
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #b0b0b0;
+}
+
+.flashList p {
+    text-align: center;
+    font-size: 14px;
+    color: #ff6709;
+}
+
+.flashList p .flashAd3 {
+    text-decoration: line-through;
+    color: #b0b0b0;
+}
+
+.flashImg {
+    width: 1226px;
+    height: 120px;
+    margin-top: 30px;
+}
+
+.flashImg img {
+    width: 1226px;
+    height: 120px;
+}
+
+/*闪购*/
+
+/*手机*/
+
+.phoneBox {
+    width: 100%;
+    height: 824px;
+    background: #f5f5f5;
+}
+
+.phoneContent {
+    width: 1226px;
+    height: 824px;
+    margin: 0 auto;
+}
+
+.phoneTitle {
+    width: 1226px;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+}
+
+.phoneTitle div {
+    font-size: 22px;
+    color: #333;
+    float: left;
+}
+
+.phoneTitle a {
+    font-size: 16px;
+    color: #333;
+    float: right;
+}
+
+.phoneTitle a:hover {
+    color: #ff6700;
+}
+.phoneBody {
+    width: 1226px;
+    height: 614px;
+}
+
+.phoneBody .phoneImg1 {
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+
+.phoneBody .phoneImg1:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 3px 5px rgba(0,0,0,0.3);
+}
+.phoneBody .phoneImg1 img {
+    width: 234px;
+    height: 614px;
+}
+
+.phoneList {
+    width: 992px;
+    height: 614px;
+    float: right;
+    overflow: hidden;
+}
+
+.phoneList .phoneListAfter1 {
+    width: 234px;
+    height: 260px;
+    background: white;
+    float: left;
+    margin: 0 0 0 14px;
+    padding: 20px 0;
+}
+
+.phoneList .phoneListAfter1:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 3px 5px rgba(0,0,0,0.3);
+}
+
+.phoneList .phoneListAfter2:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 3px 5px rgba(0,0,0,0.3);
+}
+
+.phoneList .phoneListAfter2 {
+    width: 234px;
+    height: 260px;
+    background: white;
+    float: left;
+    margin: 14px 0 0 14px;
+    padding: 20px 0;
+}
+
+.phoneList div {
+    width: 234px;
+    height: 170px;
+    display: block;
+}
+
+.phoneList img {
+    width: 170px;
+    height: 170px;
+    margin: 0 32px;
+    display: block;
+}
+
+.phoneList ul {
+    text-align: center;
+
+}
+
+.phoneList .phoneAd1 {
+    margin-bottom: 3px;
+    color: #212121;
+}
+
+.phoneList .phoneAd2 {
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #b0b0b0;
+}
+
+.phoneList p {
+    text-align: center;
+    font-size: 14px;
+    color: #ff6709;
+}
+
+.phoneList p .phoneAd3 {
+    text-decoration: line-through;
+    color: #b0b0b0;
+}
+
+.phoneImg {
+    width: 1226px;
+    height: 120px;
+    margin-top: 30px;
+}
+
+.phoneImg img {
+    width: 1226px;
+    height: 120px;
+}
+
+/*手机*/
+
+/*智能*/
+
+.electBox {
+    width: 100%;
+    height: 824px;
+    background: #f5f5f5;
+}
+
+.electContent {
+    width: 1226px;
+    height: 824px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.electTitle {
+    width: 1226px;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+}
+
+.electTitle div {
+    font-size: 22px;
+    color: #333;
+    float: left;
+}
+
+.electTitle ul {
+    float: right;
+    overflow: hidden;
+}
+
+.electTitle ul li {
+    float: left;
+    margin-left: 30px;
+}
+
+.electTitle ul li:nth-child(1) {
+    color: #ff6700;
+}
+
+/*.electTitle ul li:nth-child(1)::after {
+    content: "";
+    display: block;
+    width: 44px;
+    height: 3px;
+    background: #ff6700;
+    transform: translateY(2px);
+}*/
+.electBody1 {
+    width: 1226px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.electBody1 li {
+    width: 234px;
+    height: 300px;
+    background: white;
+    float: left;
+}
+
+.electBody1 li:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 3px 5px rgba(0,0,0,0.3);
+}
+
+.electAfter {
+    margin-left: 14px;
+}
+
+.electBody2 {
+    width: 978px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 14px;
+    float: left;
+
+}
+
+.electBody2 li {
+    width: 234px;
+    height: 300px;
+    background: white;
+    float: left;
+}
+
+.electBody2 li:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 3px 5px rgba(0,0,0,0.3);
+}
+
+.electAfter div {
+    width: 234px;
+    height: 170px;
+    display: block;
+    margin: 20px 0;
+}
+
+.electAfter img {
+    width: 170px;
+    height: 170px;
+    margin: 0 32px;
+    display: block;
+}
+
+.electImg {
+    width: 1226px;
+    height: 120px;
+    margin-top: 30px;
+}
+
+.electImg img {
+    width: 1226px;
+    height: 120px;
+}
+
+.electPhoto {
+    width: 234px;
+    height: 300px;
+}
+
+.electPhoto img {
+    width: 234px;
+    height: 300px;
+}
+
+.electAfter ul {
+    text-align: center;
+    font-size: 14px;
+}
+
+.electAfter ul .electAd1 {
+    margin-bottom: 3px;
+    color: #212121;
+}
+
+.electAfter ul .electAd2 {
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #b0b0b0;
+}
+
+.electAfter .price {
+    text-align: center;
+    font-size: 14px;
+    color: #ff6709;
+}
+
+.electAfter .price .electAd3 {
+    text-decoration: line-through;
+    color: #b0b0b0;
+}
+
+.electBody3 {
+    width: 234px;
+    height: 300px;
+    margin-top: 14px;
+    float: right;
+}
+
+.electBody3 li:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 3px 5px rgba(0,0,0,0.3);
+}
+
+.electLast {
+    width: 234px;
+    height: 103px;
+    background: white;
+    padding: 20px 0;
+}
+
+.lastTitle {
+    margin-top: 10px;
+    padding-left: 30px;
+    float: left;
+}
+
+.electLast .lastImg1 {
+
+}
+
+.electLast img {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.appliance1 img {
+    margin-left: 10px;
+}
+
+.lastTitle1 {
+    color: #333;
+    font-size: 14px;
+}
+
+.electLast1 {
+    width: 234px;
+    height: 143px;
+    background: white;
+    margin-top: 14px;
+}
+
+.lastTitle2 {
+    color: #ff6700;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+h1.electBody {
+    width: 1226px;
+    height: 614px;
+}
+
+.lastTitleBottom {
+    margin-top: 50px;
+    padding-left: 30px;
+    float: left;
+}
+
+.lastTitle3 {
+    color: #333;
+    font-size: 18px;
+}
+
+.lastTitle4 {
+    color: #333;
+    font-size: 12px;
+}
+
+.lastImg2 {
+
+
+}
+
+.icon-xiangyouyuanjiantouyoujiantouxiangyouxianxing {
+    font-size: 48px;
+    text-align: center;
+    line-height: 48px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+    color: #ff6700;
+}
+/*智能*//*周边*/
+
+
